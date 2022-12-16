@@ -1,0 +1,248 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+    <s:Header>
+        <a:Action s:mustUnderstand="1">http://schemas.ethicspoint.web/2013/12/6/ServiceContracts/CaseManagement/GetFullCaseResponse</a:Action>
+    </s:Header>
+    <s:Body>
+        <GetFullCaseResponse xmlns="http://schemas.ethicspoint.web/2013/12/6/MessageContracts/">
+            <Case xmlns="http://schemas.ethicspoint.web/2013/12/6/MessageContracts/GetFullCaseResponse" xmlns:b="http://schemas.ethicspoint.web/2013/12/6/DataContracts/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <b:AlertLevel>Green</b:AlertLevel>
+                <b:AssigneeOnly>false</b:AssigneeOnly>
+                <b:BranchNumber/>
+                <b:CaseDetails>Please take your time and provide as much detail as possible</b:CaseDetails>
+                <b:CaseTypeId>1</b:CaseTypeId>
+                <b:CorrectiveActionId>0</b:CorrectiveActionId>
+                <b:DateAllegedIncident i:nil="true"/>
+                <b:DateClosed i:nil="true"/>
+                <b:DateDue i:nil="true"/>
+                <b:DateOpened>2021-09-29T22:43:56</b:DateOpened>
+                <b:DateReported>2021-09-29T22:43:56</b:DateReported>
+                <b:LanguageId>0</b:LanguageId>
+                <b:LegacyCaseNumber i:nil="true"/>
+                <b:LegacyDateClosed i:nil="true"/>
+                <b:LegacyDateEntered i:nil="true"/>
+                <b:LegacyDateReceived i:nil="true"/>
+                <b:LegacyEnteredBy i:nil="true"/>
+                <b:LocationAddress/>
+                <b:LocationCity/>
+                <b:LocationCountry>India</b:LocationCountry>
+                <b:LocationCustom1/>
+                <b:LocationCustom2/>
+                <b:LocationCustom3/>
+                <b:LocationCustom4/>
+                <b:LocationName/>
+                <b:LocationState/>
+                <b:LocationZip/>
+                <b:OrganizationName>Cisco Systems, Inc.</b:OrganizationName>
+                <b:PrimaryIssueTypeId>22</b:PrimaryIssueTypeId>
+                <b:PrimaryIssueTypeLayer1Id>0</b:PrimaryIssueTypeLayer1Id>
+                <b:PrimaryIssueTypeLayer2Id>0</b:PrimaryIssueTypeLayer2Id>
+                <b:PrimaryIssueTypeLayer3Id>0</b:PrimaryIssueTypeLayer3Id>
+                <b:PrimaryOutcomeId>0</b:PrimaryOutcomeId>
+                <b:ReportNumber>50</b:ReportNumber>
+                <b:ReporterAvailability/>
+                <b:ReporterCountry/>
+                <b:ReporterEmail/>
+                <b:ReporterEmployee>false</b:ReporterEmployee>
+                <b:ReporterNameFirst/>
+                <b:ReporterNameLast/>
+                <b:ReporterPhone/>
+                <b:SecondaryIssueTypeId>-1</b:SecondaryIssueTypeId>
+                <b:SecondaryIssueTypeLayer1Id>0</b:SecondaryIssueTypeLayer1Id>
+                <b:SecondaryIssueTypeLayer2Id>0</b:SecondaryIssueTypeLayer2Id>
+                <b:SecondaryIssueTypeLayer3Id>0</b:SecondaryIssueTypeLayer3Id>
+                <b:SecondaryOutcomeId>0</b:SecondaryOutcomeId>
+                <b:SourceId>1</b:SourceId>
+                <b:StatusId>1</b:StatusId>
+                <b:Summary/>
+                <b:Synopsis i:nil="true"/>
+                <b:TertiaryIssueTypeId>-1</b:TertiaryIssueTypeId>
+                <b:TertiaryIssueTypeLayer1Id>0</b:TertiaryIssueTypeLayer1Id>
+                <b:TertiaryIssueTypeLayer2Id>0</b:TertiaryIssueTypeLayer2Id>
+                <b:TertiaryIssueTypeLayer3Id>0</b:TertiaryIssueTypeLayer3Id>
+                <b:TertiaryOutcomeId>0</b:TertiaryOutcomeId>
+                <b:TierId>1</b:TierId>
+                <b:Agencies/>
+                <b:CaseFileMetadatas>
+                    <b:CaseFileMetadataGet>
+                        <b:Filename>sample_ethics_case_1.txt</b:Filename>
+                        <b:URL i:nil="true"/>
+                        <b:CaseFileId>62</b:CaseFileId>
+                    </b:CaseFileMetadataGet>
+                </b:CaseFileMetadatas>
+                <b:CaseId>50</b:CaseId>
+                <b:CaseTypeName>Allegation</b:CaseTypeName>
+                <b:ContactCenter>false</b:ContactCenter>
+                <b:CorrectiveActionName>- Select One -</b:CorrectiveActionName>
+                <b:CustomFields/>
+                <b:CustomQuestions>
+                    <b:CustomQuestionGetChild>
+                        <b:Answer/>
+                        <b:EpCustomQuestionId>1302098</b:EpCustomQuestionId>
+                        <b:Id>705</b:Id>
+                        <b:OriginalAnswer/>
+                        <b:OriginalQuestion/>
+                        <b:Question>Please identify the person(s) engaged in this behavior:</b:Question>
+                    </b:CustomQuestionGetChild>
+                    <b:CustomQuestionGetChild>
+                        <b:Answer>No</b:Answer>
+                        <b:EpCustomQuestionId>1302099</b:EpCustomQuestionId>
+                        <b:Id>706</b:Id>
+                        <b:OriginalAnswer>No</b:OriginalAnswer>
+                        <b:OriginalQuestion/>
+                        <b:Question>Do you suspect or know that a supervisor or management is involved?</b:Question>
+                    </b:CustomQuestionGetChild>
+                    <b:CustomQuestionGetChild>
+                        <b:Answer/>
+                        <b:EpCustomQuestionId>1302100</b:EpCustomQuestionId>
+                        <b:Id>707</b:Id>
+                        <b:OriginalAnswer/>
+                        <b:OriginalQuestion/>
+                        <b:Question>If yes, then who?</b:Question>
+                    </b:CustomQuestionGetChild>
+                    <b:CustomQuestionGetChild>
+                        <b:Answer>No</b:Answer>
+                        <b:EpCustomQuestionId>1302101</b:EpCustomQuestionId>
+                        <b:Id>708</b:Id>
+                        <b:OriginalAnswer>No</b:OriginalAnswer>
+                        <b:OriginalQuestion/>
+                        <b:Question>Is management aware of this problem?</b:Question>
+                    </b:CustomQuestionGetChild>
+                    <b:CustomQuestionGetChild>
+                        <b:Answer>Password exchange</b:Answer>
+                        <b:EpCustomQuestionId>1302102</b:EpCustomQuestionId>
+                        <b:Id>709</b:Id>
+                        <b:OriginalAnswer>Password exchange</b:OriginalAnswer>
+                        <b:OriginalQuestion/>
+                        <b:Question>What is the general nature of this matter?</b:Question>
+                    </b:CustomQuestionGetChild>
+                    <b:CustomQuestionGetChild>
+                        <b:Answer>Off-shore</b:Answer>
+                        <b:EpCustomQuestionId>1302103</b:EpCustomQuestionId>
+                        <b:Id>710</b:Id>
+                        <b:OriginalAnswer>Off-shore</b:OriginalAnswer>
+                        <b:OriginalQuestion/>
+                        <b:Question>Where did this incident or violation occur?</b:Question>
+                    </b:CustomQuestionGetChild>
+                    <b:CustomQuestionGetChild>
+                        <b:Answer>Two weeks ago</b:Answer>
+                        <b:EpCustomQuestionId>1302104</b:EpCustomQuestionId>
+                        <b:Id>711</b:Id>
+                        <b:OriginalAnswer>Two weeks ago</b:OriginalAnswer>
+                        <b:OriginalQuestion/>
+                        <b:Question>Please provide the specific or approximate time this incident occurred:</b:Question>
+                    </b:CustomQuestionGetChild>
+                    <b:CustomQuestionGetChild>
+                        <b:Answer>1 to 3 months</b:Answer>
+                        <b:EpCustomQuestionId>1302105</b:EpCustomQuestionId>
+                        <b:Id>712</b:Id>
+                        <b:OriginalAnswer>1 to 3 months</b:OriginalAnswer>
+                        <b:OriginalQuestion/>
+                        <b:Question>How long do you think this problem has been going on?</b:Question>
+                    </b:CustomQuestionGetChild>
+                    <b:CustomQuestionGetChild>
+                        <b:Answer>I observed it</b:Answer>
+                        <b:EpCustomQuestionId>1302106</b:EpCustomQuestionId>
+                        <b:Id>713</b:Id>
+                        <b:OriginalAnswer>I observed it</b:OriginalAnswer>
+                        <b:OriginalQuestion/>
+                        <b:Question>How did you become aware of this violation?</b:Question>
+                    </b:CustomQuestionGetChild>
+                    <b:CustomQuestionGetChild>
+                        <b:Answer/>
+                        <b:EpCustomQuestionId>1302107</b:EpCustomQuestionId>
+                        <b:Id>714</b:Id>
+                        <b:OriginalAnswer/>
+                        <b:OriginalQuestion/>
+                        <b:Question>If other, how?</b:Question>
+                    </b:CustomQuestionGetChild>
+                    <b:CustomQuestionGetChild>
+                        <b:Answer>Ignored it</b:Answer>
+                        <b:EpCustomQuestionId>1302108</b:EpCustomQuestionId>
+                        <b:Id>715</b:Id>
+                        <b:OriginalAnswer>Ignored it</b:OriginalAnswer>
+                        <b:OriginalQuestion/>
+                        <b:Question>Please identify any persons who have attempted to conceal this problem and the steps they took to conceal it:</b:Question>
+                    </b:CustomQuestionGetChild>
+                    <b:CustomQuestionGetChild>
+                        <b:Answer/>
+                        <b:EpCustomQuestionId>1302109</b:EpCustomQuestionId>
+                        <b:Id>716</b:Id>
+                        <b:OriginalAnswer/>
+                        <b:OriginalQuestion/>
+                        <b:Question>If you have a document or file that supports your report, most common file types can be uploaded:</b:Question>
+                    </b:CustomQuestionGetChild>
+                </b:CustomQuestions>
+                <b:DataPrivacy>false</b:DataPrivacy>
+                <b:DataPrivacyReason>None</b:DataPrivacyReason>
+                <b:FollowupComments>
+                    <b:FollowupCommentGet>
+                        <b:Note>please contact me for additional docs</b:Note>
+                        <b:CaseCommentId>64</b:CaseCommentId>
+                        <b:Date>2021-09-29T22:56:38.04</b:Date>
+                        <b:DateEdited i:nil="true"/>
+                        <b:Key i:nil="true"/>
+                        <b:OriginalDate>2021-09-29T22:56:38.04</b:OriginalDate>
+                        <b:OriginalNote>please contact me for additional docs</b:OriginalNote>
+                        <b:Restricted>false</b:Restricted>
+                        <b:Translated>false</b:Translated>
+                        <b:TranslatedNote i:nil="true"/>
+                        <b:TranslatedOriginalNote i:nil="true"/>
+                    </b:FollowupCommentGet>
+                </b:FollowupComments>
+                <b:FollowupQuestions>
+                    <b:FollowupQuestionGet>
+                        <b:Comment>true</b:Comment>
+                        <b:QuestionText>Please submit proofs</b:QuestionText>
+                        <b:Answer>Okay sure</b:Answer>
+                        <b:AnswerDate>2021-09-29T23:01:29.7133333</b:AnswerDate>
+                        <b:Answered>true</b:Answered>
+                        <b:DateEdited i:nil="true"/>
+                        <b:EmployeeName>Kiri, Rakesh</b:EmployeeName>
+                        <b:FollowupQuestionId>113</b:FollowupQuestionId>
+                        <b:OriginalAnswer>Okay sure</b:OriginalAnswer>
+                        <b:OriginalAnswerDate>2021-09-29T23:01:29.7133333</b:OriginalAnswerDate>
+                        <b:OriginalQuestion>Please submit proofs</b:OriginalQuestion>
+                        <b:OriginalQuestionDate>2021-09-29T23:00:22.44</b:OriginalQuestionDate>
+                        <b:QuestionDate>2021-09-29T23:00:22.44</b:QuestionDate>
+                        <b:Restricted>false</b:Restricted>
+                        <b:Retracted>0</b:Retracted>
+                        <b:RetractionDate i:nil="true"/>
+                        <b:RetractionReason i:nil="true"/>
+                        <b:Translated>false</b:Translated>
+                        <b:TranslatedAnswer i:nil="true"/>
+                        <b:TranslatedOriginalAnswer i:nil="true"/>
+                        <b:TranslatedOriginalQuestion i:nil="true"/>
+                        <b:TranslatedQuestion i:nil="true"/>
+                        <b:Viewed>1</b:Viewed>
+                    </b:FollowupQuestionGet>
+                </b:FollowupQuestions>
+                <b:Hotline>true</b:Hotline>
+                <b:IntakeSpecialistName/>
+                <b:Items/>
+                <b:LanguageName>English</b:LanguageName>
+                <b:Notes/>
+                <b:OriginalResponses xmlns:c="urn:EthicsPoint.IEM.Core.Services.DataContracts.Internal"/>
+                <b:Participants/>
+                <b:PrimaryIssueTypeLayer1Name i:nil="true"/>
+                <b:PrimaryIssueTypeLayer2Name i:nil="true"/>
+                <b:PrimaryIssueTypeLayer3Name i:nil="true"/>
+                <b:PrimaryIssueTypeName>Data Privacy and Protection and Cyber-Security</b:PrimaryIssueTypeName>
+                <b:PrimaryOutcomeName>- Select One -</b:PrimaryOutcomeName>
+                <b:SecondaryIssueTypeLayer1Name i:nil="true"/>
+                <b:SecondaryIssueTypeLayer2Name i:nil="true"/>
+                <b:SecondaryIssueTypeLayer3Name i:nil="true"/>
+                <b:SecondaryIssueTypeName i:nil="true"/>
+                <b:SecondaryOutcomeName>- Select One -</b:SecondaryOutcomeName>
+                <b:SourceName>Hotline Web</b:SourceName>
+                <b:StatusName>Unreviewed</b:StatusName>
+                <b:TertiaryIssueTypeLayer1Name i:nil="true"/>
+                <b:TertiaryIssueTypeLayer2Name i:nil="true"/>
+                <b:TertiaryIssueTypeLayer3Name i:nil="true"/>
+                <b:TertiaryIssueTypeName i:nil="true"/>
+                <b:TertiaryOutcomeName>- Select One -</b:TertiaryOutcomeName>
+                <b:TierName>Cisco Systems</b:TierName>
+            </Case>
+            <ValidationResults xmlns="http://schemas.ethicspoint.web/2013/12/6/MessageContracts/ServiceResponse" xmlns:b="http://schemas.ethicspoint.web/2013/12/6/DataContracts/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"/>
+        </GetFullCaseResponse>
+    </s:Body>
+</s:Envelope>

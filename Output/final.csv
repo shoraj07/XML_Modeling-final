@@ -1,0 +1,247 @@
+Tags,Data
+Header,"
+        "
+Action,http://schemas.ethicspoint.web/2013/12/6/ServiceContracts/CaseManagement/GetFullCaseResponse
+Body,"
+        "
+GetFullCaseResponse,"
+            "
+Case,"
+                "
+AlertLevel,Green
+AssigneeOnly,false
+BranchNumber,
+CaseDetails,Please take your time and provide as much detail as possible
+CaseTypeId,1
+CorrectiveActionId,0
+DateAllegedIncident,
+DateClosed,
+DateDue,
+DateOpened,2021-09-29T22:43:56
+DateReported,2021-09-29T22:43:56
+LanguageId,0
+LegacyCaseNumber,
+LegacyDateClosed,
+LegacyDateEntered,
+LegacyDateReceived,
+LegacyEnteredBy,
+LocationAddress,
+LocationCity,
+LocationCountry,India
+LocationCustom1,
+LocationCustom2,
+LocationCustom3,
+LocationCustom4,
+LocationName,
+LocationState,
+LocationZip,
+OrganizationName,"Cisco Systems, Inc."
+PrimaryIssueTypeId,22
+PrimaryIssueTypeLayer1Id,0
+PrimaryIssueTypeLayer2Id,0
+PrimaryIssueTypeLayer3Id,0
+PrimaryOutcomeId,0
+ReportNumber,50
+ReporterAvailability,
+ReporterCountry,
+ReporterEmail,
+ReporterEmployee,false
+ReporterNameFirst,
+ReporterNameLast,
+ReporterPhone,
+SecondaryIssueTypeId,-1
+SecondaryIssueTypeLayer1Id,0
+SecondaryIssueTypeLayer2Id,0
+SecondaryIssueTypeLayer3Id,0
+SecondaryOutcomeId,0
+SourceId,1
+StatusId,1
+Summary,
+Synopsis,
+TertiaryIssueTypeId,-1
+TertiaryIssueTypeLayer1Id,0
+TertiaryIssueTypeLayer2Id,0
+TertiaryIssueTypeLayer3Id,0
+TertiaryOutcomeId,0
+TierId,1
+Agencies,
+CaseFileMetadatas,"
+                    "
+CaseFileMetadataGet,"
+                        "
+Filename,sample_ethics_case_1.txt
+URL,
+CaseFileId,62
+CaseId,50
+CaseTypeName,Allegation
+ContactCenter,false
+CorrectiveActionName,- Select One -
+CustomFields,
+CustomQuestions,"
+                    "
+CustomQuestionGetChild,"
+                        "
+Answer,
+EpCustomQuestionId,1302098
+Id,705
+OriginalAnswer,
+OriginalQuestion,
+Question,Please identify the person(s) engaged in this behavior:
+CustomQuestionGetChild,"
+                        "
+Answer,No
+EpCustomQuestionId,1302099
+Id,706
+OriginalAnswer,No
+OriginalQuestion,
+Question,Do you suspect or know that a supervisor or management is involved?
+CustomQuestionGetChild,"
+                        "
+Answer,
+EpCustomQuestionId,1302100
+Id,707
+OriginalAnswer,
+OriginalQuestion,
+Question,"If yes, then who?"
+CustomQuestionGetChild,"
+                        "
+Answer,No
+EpCustomQuestionId,1302101
+Id,708
+OriginalAnswer,No
+OriginalQuestion,
+Question,Is management aware of this problem?
+CustomQuestionGetChild,"
+                        "
+Answer,Password exchange
+EpCustomQuestionId,1302102
+Id,709
+OriginalAnswer,Password exchange
+OriginalQuestion,
+Question,What is the general nature of this matter?
+CustomQuestionGetChild,"
+                        "
+Answer,Off-shore
+EpCustomQuestionId,1302103
+Id,710
+OriginalAnswer,Off-shore
+OriginalQuestion,
+Question,Where did this incident or violation occur?
+CustomQuestionGetChild,"
+                        "
+Answer,Two weeks ago
+EpCustomQuestionId,1302104
+Id,711
+OriginalAnswer,Two weeks ago
+OriginalQuestion,
+Question,Please provide the specific or approximate time this incident occurred:
+CustomQuestionGetChild,"
+                        "
+Answer,1 to 3 months
+EpCustomQuestionId,1302105
+Id,712
+OriginalAnswer,1 to 3 months
+OriginalQuestion,
+Question,How long do you think this problem has been going on?
+CustomQuestionGetChild,"
+                        "
+Answer,I observed it
+EpCustomQuestionId,1302106
+Id,713
+OriginalAnswer,I observed it
+OriginalQuestion,
+Question,How did you become aware of this violation?
+CustomQuestionGetChild,"
+                        "
+Answer,
+EpCustomQuestionId,1302107
+Id,714
+OriginalAnswer,
+OriginalQuestion,
+Question,"If other, how?"
+CustomQuestionGetChild,"
+                        "
+Answer,Ignored it
+EpCustomQuestionId,1302108
+Id,715
+OriginalAnswer,Ignored it
+OriginalQuestion,
+Question,Please identify any persons who have attempted to conceal this problem and the steps they took to conceal it:
+CustomQuestionGetChild,"
+                        "
+Answer,
+EpCustomQuestionId,1302109
+Id,716
+OriginalAnswer,
+OriginalQuestion,
+Question,"If you have a document or file that supports your report, most common file types can be uploaded:"
+DataPrivacy,false
+DataPrivacyReason,None
+FollowupComments,"
+                    "
+FollowupCommentGet,"
+                        "
+Note,please contact me for additional docs
+CaseCommentId,64
+Date,2021-09-29T22:56:38.04
+DateEdited,
+Key,
+OriginalDate,2021-09-29T22:56:38.04
+OriginalNote,please contact me for additional docs
+Restricted,false
+Translated,false
+TranslatedNote,
+TranslatedOriginalNote,
+FollowupQuestions,"
+                    "
+FollowupQuestionGet,"
+                        "
+Comment,true
+QuestionText,Please submit proofs
+Answer,Okay sure
+AnswerDate,2021-09-29T23:01:29.7133333
+Answered,true
+DateEdited,
+EmployeeName,"Kiri, Rakesh"
+FollowupQuestionId,113
+OriginalAnswer,Okay sure
+OriginalAnswerDate,2021-09-29T23:01:29.7133333
+OriginalQuestion,Please submit proofs
+OriginalQuestionDate,2021-09-29T23:00:22.44
+QuestionDate,2021-09-29T23:00:22.44
+Restricted,false
+Retracted,0
+RetractionDate,
+RetractionReason,
+Translated,false
+TranslatedAnswer,
+TranslatedOriginalAnswer,
+TranslatedOriginalQuestion,
+TranslatedQuestion,
+Viewed,1
+Hotline,true
+IntakeSpecialistName,
+Items,
+LanguageName,English
+Notes,
+OriginalResponses,
+Participants,
+PrimaryIssueTypeLayer1Name,
+PrimaryIssueTypeLayer2Name,
+PrimaryIssueTypeLayer3Name,
+PrimaryIssueTypeName,Data Privacy and Protection and Cyber-Security
+PrimaryOutcomeName,- Select One -
+SecondaryIssueTypeLayer1Name,
+SecondaryIssueTypeLayer2Name,
+SecondaryIssueTypeLayer3Name,
+SecondaryIssueTypeName,
+SecondaryOutcomeName,- Select One -
+SourceName,Hotline Web
+StatusName,Unreviewed
+TertiaryIssueTypeLayer1Name,
+TertiaryIssueTypeLayer2Name,
+TertiaryIssueTypeLayer3Name,
+TertiaryIssueTypeName,
+TertiaryOutcomeName,- Select One -
+TierName,Cisco Systems
+ValidationResults,
